@@ -1,0 +1,24 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+		hmd(96.5);
+		hmd(88.1);
+		hmd(75.9);
+	    hmd(64.2);
+	    hmd(45.2);
+	}
+	public static void hmd (double H){
+	    if (H>90){  //love you
+	        System.out.println('A');
+	    }if ( H > 80 && H < 90 ){
+	        System.out.println('B');
+	    }if (H > 70 && H < 80){
+	        System.out.println('C');
+	    }if (H > 60 && H < 70){
+	        System.out.println('D');
+	    }else if (H < 60 ){
+	        System.out.println('F');
+	    }
+}    
+}           
